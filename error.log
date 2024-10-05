@@ -1,0 +1,216 @@
+2024-10-04 14:39:34,381 - INFO - No cookies found. Please log in. [Errno 2] No such file or directory: 'linkedin_cookies.pkl'
+2024-10-04 18:57:57,634 - INFO - No cookies found. Please log in. [Errno 2] No such file or directory: 'linkedin_cookies.pkl'
+2024-10-04 19:06:36,742 - ERROR - Login failed, Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF77AD3B125+29573]
+	(No symbol) [0x00007FF77ACAFF50]
+	(No symbol) [0x00007FF77AB6B6EA]
+	(No symbol) [0x00007FF77ABBF815]
+	(No symbol) [0x00007FF77ABBFA6C]
+	(No symbol) [0x00007FF77AC0B917]
+	(No symbol) [0x00007FF77ABE733F]
+	(No symbol) [0x00007FF77AC086BC]
+	(No symbol) [0x00007FF77ABE70A3]
+	(No symbol) [0x00007FF77ABB12DF]
+	(No symbol) [0x00007FF77ABB2441]
+	GetHandleVerifier [0x00007FF77B06C76D+3377613]
+	GetHandleVerifier [0x00007FF77B0B7B67+3685831]
+	GetHandleVerifier [0x00007FF77B0ACF8B+3641835]
+	GetHandleVerifier [0x00007FF77ADFB2A6+816390]
+	(No symbol) [0x00007FF77ACBB25F]
+	(No symbol) [0x00007FF77ACB7084]
+	(No symbol) [0x00007FF77ACB7220]
+	(No symbol) [0x00007FF77ACA607F]
+	BaseThreadInitThunk [0x00007FFB9CB5257D+29]
+	RtlUserThreadStart [0x00007FFB9E42AF28+40]
+
+2024-10-04 19:08:53,273 - ERROR - Login failed, Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF77AD3B125+29573]
+	(No symbol) [0x00007FF77ACAFF50]
+	(No symbol) [0x00007FF77AB6B6EA]
+	(No symbol) [0x00007FF77ABBF815]
+	(No symbol) [0x00007FF77ABBFA6C]
+	(No symbol) [0x00007FF77AC0B917]
+	(No symbol) [0x00007FF77ABE733F]
+	(No symbol) [0x00007FF77AC086BC]
+	(No symbol) [0x00007FF77ABE70A3]
+	(No symbol) [0x00007FF77ABB12DF]
+	(No symbol) [0x00007FF77ABB2441]
+	GetHandleVerifier [0x00007FF77B06C76D+3377613]
+	GetHandleVerifier [0x00007FF77B0B7B67+3685831]
+	GetHandleVerifier [0x00007FF77B0ACF8B+3641835]
+	GetHandleVerifier [0x00007FF77ADFB2A6+816390]
+	(No symbol) [0x00007FF77ACBB25F]
+	(No symbol) [0x00007FF77ACB7084]
+	(No symbol) [0x00007FF77ACB7220]
+	(No symbol) [0x00007FF77ACA607F]
+	BaseThreadInitThunk [0x00007FFB9CB5257D+29]
+	RtlUserThreadStart [0x00007FFB9E42AF28+40]
+
+2024-10-04 19:12:31,177 - ERROR - Login failed, Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF77AD3B125+29573]
+	(No symbol) [0x00007FF77ACAFF50]
+	(No symbol) [0x00007FF77AB6B6EA]
+	(No symbol) [0x00007FF77AB3FCD5]
+	(No symbol) [0x00007FF77ABEEF67]
+	(No symbol) [0x00007FF77AC07FC1]
+	(No symbol) [0x00007FF77ABE70A3]
+	(No symbol) [0x00007FF77ABB12DF]
+	(No symbol) [0x00007FF77ABB2441]
+	GetHandleVerifier [0x00007FF77B06C76D+3377613]
+	GetHandleVerifier [0x00007FF77B0B7B67+3685831]
+	GetHandleVerifier [0x00007FF77B0ACF8B+3641835]
+	GetHandleVerifier [0x00007FF77ADFB2A6+816390]
+	(No symbol) [0x00007FF77ACBB25F]
+	(No symbol) [0x00007FF77ACB7084]
+	(No symbol) [0x00007FF77ACB7220]
+	(No symbol) [0x00007FF77ACA607F]
+	BaseThreadInitThunk [0x00007FFB9CB5257D+29]
+	RtlUserThreadStart [0x00007FFB9E42AF28+40]
+
+2024-10-04 19:27:22,942 - ERROR - Login failed, Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF68D72B125+29573]
+	(No symbol) [0x00007FF68D69FF50]
+	(No symbol) [0x00007FF68D55B6EA]
+	(No symbol) [0x00007FF68D5AF815]
+	(No symbol) [0x00007FF68D5AFA6C]
+	(No symbol) [0x00007FF68D5FB917]
+	(No symbol) [0x00007FF68D5D733F]
+	(No symbol) [0x00007FF68D5F86BC]
+	(No symbol) [0x00007FF68D5D70A3]
+	(No symbol) [0x00007FF68D5A12DF]
+	(No symbol) [0x00007FF68D5A2441]
+	GetHandleVerifier [0x00007FF68DA5C76D+3377613]
+	GetHandleVerifier [0x00007FF68DAA7B67+3685831]
+	GetHandleVerifier [0x00007FF68DA9CF8B+3641835]
+	GetHandleVerifier [0x00007FF68D7EB2A6+816390]
+	(No symbol) [0x00007FF68D6AB25F]
+	(No symbol) [0x00007FF68D6A7084]
+	(No symbol) [0x00007FF68D6A7220]
+	(No symbol) [0x00007FF68D69607F]
+	BaseThreadInitThunk [0x00007FFB9CB5257D+29]
+	RtlUserThreadStart [0x00007FFB9E42AF28+40]
+
+2024-10-04 19:39:38,363 - ERROR - Login failed, Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7009BB125+29573]
+	(No symbol) [0x00007FF70092FF50]
+	(No symbol) [0x00007FF7007EB6EA]
+	(No symbol) [0x00007FF70083F815]
+	(No symbol) [0x00007FF70083FA6C]
+	(No symbol) [0x00007FF70088B917]
+	(No symbol) [0x00007FF70086733F]
+	(No symbol) [0x00007FF7008886BC]
+	(No symbol) [0x00007FF7008670A3]
+	(No symbol) [0x00007FF7008312DF]
+	(No symbol) [0x00007FF700832441]
+	GetHandleVerifier [0x00007FF700CEC76D+3377613]
+	GetHandleVerifier [0x00007FF700D37B67+3685831]
+	GetHandleVerifier [0x00007FF700D2CF8B+3641835]
+	GetHandleVerifier [0x00007FF700A7B2A6+816390]
+	(No symbol) [0x00007FF70093B25F]
+	(No symbol) [0x00007FF700937084]
+	(No symbol) [0x00007FF700937220]
+	(No symbol) [0x00007FF70092607F]
+	BaseThreadInitThunk [0x00007FFB9CB5257D+29]
+	RtlUserThreadStart [0x00007FFB9E42AF28+40]
+
+2024-10-04 19:47:58,354 - ERROR - Login failed, Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF65A93B125+29573]
+	(No symbol) [0x00007FF65A8AFF50]
+	(No symbol) [0x00007FF65A76B6EA]
+	(No symbol) [0x00007FF65A7BF815]
+	(No symbol) [0x00007FF65A7BFA6C]
+	(No symbol) [0x00007FF65A80B917]
+	(No symbol) [0x00007FF65A7E733F]
+	(No symbol) [0x00007FF65A8086BC]
+	(No symbol) [0x00007FF65A7E70A3]
+	(No symbol) [0x00007FF65A7B12DF]
+	(No symbol) [0x00007FF65A7B2441]
+	GetHandleVerifier [0x00007FF65AC6C76D+3377613]
+	GetHandleVerifier [0x00007FF65ACB7B67+3685831]
+	GetHandleVerifier [0x00007FF65ACACF8B+3641835]
+	GetHandleVerifier [0x00007FF65A9FB2A6+816390]
+	(No symbol) [0x00007FF65A8BB25F]
+	(No symbol) [0x00007FF65A8B7084]
+	(No symbol) [0x00007FF65A8B7220]
+	(No symbol) [0x00007FF65A8A607F]
+	BaseThreadInitThunk [0x00007FFB9CB5257D+29]
+	RtlUserThreadStart [0x00007FFB9E42AF28+40]
+
+2024-10-04 19:56:29,573 - ERROR - Login failed, Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6B1F5B125+29573]
+	(No symbol) [0x00007FF6B1ECFF50]
+	(No symbol) [0x00007FF6B1D8B6EA]
+	(No symbol) [0x00007FF6B1DDF815]
+	(No symbol) [0x00007FF6B1DDFA6C]
+	(No symbol) [0x00007FF6B1E2B917]
+	(No symbol) [0x00007FF6B1E0733F]
+	(No symbol) [0x00007FF6B1E286BC]
+	(No symbol) [0x00007FF6B1E070A3]
+	(No symbol) [0x00007FF6B1DD12DF]
+	(No symbol) [0x00007FF6B1DD2441]
+	GetHandleVerifier [0x00007FF6B228C76D+3377613]
+	GetHandleVerifier [0x00007FF6B22D7B67+3685831]
+	GetHandleVerifier [0x00007FF6B22CCF8B+3641835]
+	GetHandleVerifier [0x00007FF6B201B2A6+816390]
+	(No symbol) [0x00007FF6B1EDB25F]
+	(No symbol) [0x00007FF6B1ED7084]
+	(No symbol) [0x00007FF6B1ED7220]
+	(No symbol) [0x00007FF6B1EC607F]
+	BaseThreadInitThunk [0x00007FFB9CB5257D+29]
+	RtlUserThreadStart [0x00007FFB9E42AF28+40]
+
+2024-10-04 19:59:53,925 - INFO - Waiting for user to enter the 2FA code.
+2024-10-04 20:00:34,275 - ERROR - Login or 2FA failed.Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF795F7B125+29573]
+	(No symbol) [0x00007FF795EEFF50]
+	(No symbol) [0x00007FF795DAB6EA]
+	(No symbol) [0x00007FF795DFF815]
+	(No symbol) [0x00007FF795DFFA6C]
+	(No symbol) [0x00007FF795E4B917]
+	(No symbol) [0x00007FF795E2733F]
+	(No symbol) [0x00007FF795E486BC]
+	(No symbol) [0x00007FF795E270A3]
+	(No symbol) [0x00007FF795DF12DF]
+	(No symbol) [0x00007FF795DF2441]
+	GetHandleVerifier [0x00007FF7962AC76D+3377613]
+	GetHandleVerifier [0x00007FF7962F7B67+3685831]
+	GetHandleVerifier [0x00007FF7962ECF8B+3641835]
+	GetHandleVerifier [0x00007FF79603B2A6+816390]
+	(No symbol) [0x00007FF795EFB25F]
+	(No symbol) [0x00007FF795EF7084]
+	(No symbol) [0x00007FF795EF7220]
+	(No symbol) [0x00007FF795EE607F]
+	BaseThreadInitThunk [0x00007FFB9CB5257D+29]
+	RtlUserThreadStart [0x00007FFB9E42AF28+40]
+
+2024-10-04 20:03:55,015 - INFO - Waiting for user to enter the 2FA code.
+2024-10-04 20:04:25,046 - INFO - 2FA code entered successfully. Waiting for validation.
+2024-10-04 20:04:35,572 - ERROR - Login or 2FA failed.Message: 
+
+2024-10-04 20:10:37,757 - INFO - Waiting for user to enter the 2FA code.
+2024-10-04 20:10:52,809 - INFO - 2FA code entered successfully. Waiting for validation.
+2024-10-04 20:11:03,048 - ERROR - Login or 2FA failed.Message: 
+
+2024-10-04 20:19:36,216 - INFO - Waiting for user to enter the 2FA code.
+2024-10-04 20:19:36,247 - INFO - 2FA input field found. Waiting for the user to input the code.
+2024-10-04 20:19:48,225 - INFO - 2FA code entered successfully. Waiting for validation.
+2024-10-04 20:20:08,260 - ERROR - Login or 2FA failed.Message: 
+
+2024-10-04 20:37:07,557 - INFO - Waiting for user to enter the 2FA code.
+2024-10-04 20:37:07,604 - INFO - 2FA input field found. Waiting for the user to input the code.
+2024-10-04 20:37:07,604 - ERROR - An unexpected error occurred: object of type 'bool' has no len()
+2024-10-04 20:39:44,738 - INFO - Waiting for user to enter the 2FA code.
+2024-10-04 20:39:44,738 - INFO - 2FA input field found. Waiting for the user to input the code.
+2024-10-04 20:39:49,686 - INFO - 2FA code entered successfully. Waiting for validation.
+2024-10-04 20:39:49,733 - INFO - Attempting to save the cookies.
+2024-10-04 20:39:52,754 - INFO - Cookies saved.

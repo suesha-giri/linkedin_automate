@@ -214,3 +214,117 @@ Stacktrace:
 2024-10-04 20:39:49,686 - INFO - 2FA code entered successfully. Waiting for validation.
 2024-10-04 20:39:49,733 - INFO - Attempting to save the cookies.
 2024-10-04 20:39:52,754 - INFO - Cookies saved.
+2024-10-06 17:55:09,637 - ERROR - Login failed, Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659ABB125+29573]
+	(No symbol) [0x00007FF659A2FF50]
+	(No symbol) [0x00007FF6598EB6EA]
+	(No symbol) [0x00007FF65993F815]
+	(No symbol) [0x00007FF65993FA6C]
+	(No symbol) [0x00007FF65998B917]
+	(No symbol) [0x00007FF65996733F]
+	(No symbol) [0x00007FF6599886BC]
+	(No symbol) [0x00007FF6599670A3]
+	(No symbol) [0x00007FF6599312DF]
+	(No symbol) [0x00007FF659932441]
+	GetHandleVerifier [0x00007FF659DEC76D+3377613]
+	GetHandleVerifier [0x00007FF659E37B67+3685831]
+	GetHandleVerifier [0x00007FF659E2CF8B+3641835]
+	GetHandleVerifier [0x00007FF659B7B2A6+816390]
+	(No symbol) [0x00007FF659A3B25F]
+	(No symbol) [0x00007FF659A37084]
+	(No symbol) [0x00007FF659A37220]
+	(No symbol) [0x00007FF659A2607F]
+	BaseThreadInitThunk [0x00007FFB9CB5257D+29]
+	RtlUserThreadStart [0x00007FFB9E42AF28+40]
+
+2024-10-06 17:55:28,134 - ERROR - An unexpected error occured, HTTPConnectionPool(host='localhost', port=52768): Max retries exceeded with url: /session/bcb849f8d1426df56f11a60a43ec0060/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002335F3DC970>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-10-06 18:00:40,751 - INFO - Waiting for user to enter the 2FA code.
+2024-10-06 18:00:40,763 - INFO - 2FA input field found. Waiting for the user to input the code.
+2024-10-06 18:01:13,222 - INFO - 2FA code entered successfully. Waiting for validation.
+2024-10-06 18:01:13,305 - INFO - Attempting to save the cookies.
+2024-10-06 18:01:16,353 - INFO - Cookies saved.
+2024-10-06 18:07:31,335 - INFO - ......towards poll
+2024-10-06 18:08:01,847 - ERROR - An unexpected error occured, Message: 
+
+2024-10-06 18:14:46,367 - INFO - Excel file record.xlsx has been created successfully.
+2024-10-06 18:14:46,367 - INFO - ......towards poll
+2024-10-06 18:15:16,677 - ERROR - An unexpected error occured, Message: 
+
+2024-10-06 18:17:08,813 - INFO - ......towards poll
+2024-10-06 18:17:39,067 - ERROR - Message: 
+
+2024-10-06 18:17:44,067 - ERROR - An unexpected error occured, local variable 'polls' referenced before assignment
+2024-10-06 18:21:08,872 - INFO - ......towards poll
+2024-10-06 18:21:39,099 - ERROR - Message: 
+
+2024-10-06 18:21:39,099 - INFO - quittig the driver
+2024-10-06 18:21:46,447 - ERROR - An unexpected error occured, local variable 'polls' referenced before assignment
+2024-10-06 18:24:32,677 - INFO - ......towards poll
+2024-10-06 18:24:32,677 - ERROR - 'NoneType' object has no attribute 'find_elements'
+2024-10-06 18:24:32,677 - INFO - quittig the driver
+2024-10-06 18:24:39,962 - ERROR - An unexpected error occured, local variable 'polls' referenced before assignment
+2024-10-06 18:39:22,826 - INFO - ......towards poll
+2024-10-06 18:39:53,161 - ERROR - Message: 
+
+2024-10-06 18:39:53,161 - INFO - quittig the driver
+2024-10-06 18:40:00,458 - ERROR - An unexpected error occured, local variable 'polls' referenced before assignment
+2024-10-06 18:55:56,281 - INFO - ......towards poll
+2024-10-06 19:07:22,025 - INFO - ......towards poll
+2024-10-06 19:10:28,620 - INFO - ......towards poll
+2024-10-06 19:47:05,869 - INFO - ......towards poll
+2024-10-08 02:08:20,599 - INFO - ......towards poll
+2024-10-24 14:23:08,929 - INFO - ......towards poll
+2024-10-24 14:23:14,327 - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-finite-scroll-hotkey-context='NOTIFICATIONS']"}
+  (Session info: chrome=129.0.6668.103); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73113B125+29573]
+	(No symbol) [0x00007FF7310AFF50]
+	(No symbol) [0x00007FF730F6B6EA]
+	(No symbol) [0x00007FF730FBF815]
+	(No symbol) [0x00007FF730FBFA6C]
+	(No symbol) [0x00007FF73100B917]
+	(No symbol) [0x00007FF730FE733F]
+	(No symbol) [0x00007FF7310086BC]
+	(No symbol) [0x00007FF730FE70A3]
+	(No symbol) [0x00007FF730FB12DF]
+	(No symbol) [0x00007FF730FB2441]
+	GetHandleVerifier [0x00007FF73146C76D+3377613]
+	GetHandleVerifier [0x00007FF7314B7B67+3685831]
+	GetHandleVerifier [0x00007FF7314ACF8B+3641835]
+	GetHandleVerifier [0x00007FF7311FB2A6+816390]
+	(No symbol) [0x00007FF7310BB25F]
+	(No symbol) [0x00007FF7310B7084]
+	(No symbol) [0x00007FF7310B7220]
+	(No symbol) [0x00007FF7310A607F]
+	BaseThreadInitThunk [0x00007FFB9CB5257D+29]
+	RtlUserThreadStart [0x00007FFB9E42AF28+40]
+
+2024-10-24 14:23:15,893 - INFO - quittig the driver
+2024-10-24 14:24:01,464 - ERROR - An unexpected error occured, local variable 'polls' referenced before assignment
+2024-10-24 14:45:21,778 - INFO - Waiting for user to enter the 2FA code.
+2024-10-24 14:45:21,813 - ERROR - An unexpected error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.103)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73113B125+29573]
+	(No symbol) [0x00007FF7310AFF50]
+	(No symbol) [0x00007FF730F6B6EA]
+	(No symbol) [0x00007FF730F3FCD5]
+	(No symbol) [0x00007FF730FEEF67]
+	(No symbol) [0x00007FF731007FC1]
+	(No symbol) [0x00007FF730FE70A3]
+	(No symbol) [0x00007FF730FB12DF]
+	(No symbol) [0x00007FF730FB2441]
+	GetHandleVerifier [0x00007FF73146C76D+3377613]
+	GetHandleVerifier [0x00007FF7314B7B67+3685831]
+	GetHandleVerifier [0x00007FF7314ACF8B+3641835]
+	GetHandleVerifier [0x00007FF7311FB2A6+816390]
+	(No symbol) [0x00007FF7310BB25F]
+	(No symbol) [0x00007FF7310B7084]
+	(No symbol) [0x00007FF7310B7220]
+	(No symbol) [0x00007FF7310A607F]
+	BaseThreadInitThunk [0x00007FFB9CB5257D+29]
+	RtlUserThreadStart [0x00007FFB9E42AF28+40]
+
+2024-10-24 14:45:40,336 - ERROR - An unexpected error occured, HTTPConnectionPool(host='localhost', port=55426): Max retries exceeded with url: /session/2bd758d530d0510284bf5f109797c1a8/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021CC0D0C610>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))

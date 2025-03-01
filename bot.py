@@ -2,10 +2,11 @@ import os
 import time
 
 from dotenv import load_dotenv
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 from login import Login
 from utils import (
@@ -35,7 +36,6 @@ def linkedin_bot():
         loaded_cookies = load_cookies(driver)
         if not loaded_cookies:
             username = os.getenv("username")
-            print(username)
             password = os.getenv("password")
 
             if not username or not password:
@@ -47,28 +47,41 @@ def linkedin_bot():
                 driver.quit()
 
         # navigate to notifications
-        driver.get("https://www.linkedin.com/notifications/?filter=all")
+        notifications = driver.get("https://www.linkedin.com/notifications/?filter=all")
         time.sleep(5)
 
         workbook, sheet = get_or_create_excel_file() 
         visited_polls = get_visited_polls(sheet)
         visited_profiles = get_visited_profiles(sheet)
 
-        polls = driver.find_elements(By.XPATH, "//span[contains(text(), 'Your poll')]")
-        time.sleep(3)
+        logger.info("......towards poll")
+
+        try:
+            notification_div = driver.find_element(By.XPATH, "//div[@data-finite-scroll-hotkey-context='NOTIFICATIONS']")
+            article=notification_div.find_element(By.XPATH, ".//span[text()='Your poll']")
+            # article=notification_div.find_element(By.XPATH, ".//article[@data-view-name='notification-card-container']//div//div//a//span[text()='Your poll']")
+            # Combined XPath to find the phrase "your poll received"
+            # combined_xpath = ".//span[text()='Your poll']/following-sibling::strong[contains(text(), 'received')]"
+            polls = notification_div.find_elements(By.XPATH, ".//span[contains(text(), 'Your poll')]")
+            print(polls)
+        except Exception as e:
+            logger.error(str(e))
+            logger.info("quittig the driver")
+            driver.quit()
+        time.sleep(5)
 
         new_records = []
 
         for poll in polls:
-            # get the poll question
-            poll_question = ""
-            if poll_question in visited_polls:
-                logger.info(f"Poll {poll_question} is already visited, so going towards another poll.")
+            # go to its parent anchor tag and get the poll link element
+            poll_link_element = poll.find_element(By.XPATH, "./parent::a")
+            poll_link = poll_link_element.get_attribute("href")
+
+            if poll_link in visited_polls:
+                logger.info("Poll is already visited, so going towards another poll.")
                 continue
 
-            # go to its parent anchor tag and get the poll link element
-            poll_link = poll.find_element(By.XPATH, "./parent::a")
-            poll_link.send_keys(Keys.CONTROL + Keys.RETURN)   # Open the link in a new tab
+            poll_link_element.send_keys(Keys.CONTROL + Keys.RETURN)   # Open the link in a new tab
             driver.switch_to.window(driver.window_handles[-1])
             time.sleep(5)
 
@@ -150,7 +163,7 @@ def linkedin_bot():
         if new_records:
             update_excel_file(workbook, sheet, new_records)
 
-        Close the browser and end the WebDriver session
+        # Close the browser and end the WebDriver session
         driver.quit()  # This will close the browser and free up resources
     except Exception as e:
         print(e)

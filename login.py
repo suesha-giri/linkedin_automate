@@ -14,7 +14,7 @@ logger = get_logger()
 
 
 class Login:
-    LOGIN_URL = "https://www.linkedin.com/login"
+    LOGIN_URL = "https://www.linkedin.com/checkpoint/lg/sign-in-another-account?trk=guest_homepage-basic_nav-heade"
 
     def __init__(self, username, password, driver):
         self.username = username
@@ -43,7 +43,6 @@ class Login:
         except Exception as e:
             logger.error(f"Login failed, {e}")
             return False
-        
         return self.handle_2FA()
 
     def handle_2FA(self):
